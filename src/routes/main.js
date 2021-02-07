@@ -1,6 +1,7 @@
 import Home from '../components/Home';
 import AboutUs from '../components/pages/AboutUs';
 import Post from '../components/pages/Post';
+import UiComponent from '../components/pages/UiComponent';
 import Product from '../components/ecommerce/Product';
 import ProductDetails from '../components/ecommerce/ProductDetails';
 export const routes = [
@@ -24,5 +25,9 @@ export const routes = [
     {
         path: '/posts',
         component: Post,
+    },
+    {
+        path: '/ui',
+        component: UiComponent,
     }
 ]

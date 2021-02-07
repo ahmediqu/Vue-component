@@ -21,6 +21,9 @@
             <li class="nav-item">
               <router-link class="nav-link" to="/posts">Posts</router-link>
             </li>
+            <li class="nav-item">
+              <router-link class="nav-link" to="/ui">UI Component</router-link>
+            </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
                  aria-expanded="false">
