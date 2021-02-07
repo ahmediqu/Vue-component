@@ -34,6 +34,7 @@ const router = new VueRouter({
 // global component
 Vue.component('scroll-link', require('./components/core/ScrollLink').default);
 Vue.component('dropdown', require('./components/core/Dropdown').default);
+Vue.component('conditional-element', require('./components/core/ConditionalElement').default);
 
 new Vue({
   render: h => h(App),
