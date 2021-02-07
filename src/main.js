@@ -8,6 +8,9 @@ import VueRouter from 'vue-router'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'popper.js/dist/popper.min'
 
+import Modal from './components/core/plugins/modal/ModalPlugin'
+Vue.use(Modal)
+
 global.jQuery = require('jquery')
 require('bootstrap');
 
@@ -35,6 +38,7 @@ const router = new VueRouter({
 Vue.component('scroll-link', require('./components/core/ScrollLink').default);
 Vue.component('dropdown', require('./components/core/Dropdown').default);
 Vue.component('conditional-element', require('./components/core/ConditionalElement').default);
+// Vue.component('modal', require('./components/core/Modal').default);
 
 new Vue({
   render: h => h(App),
